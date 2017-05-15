@@ -1,18 +1,9 @@
 from sqlalchemy import (
-    Table,
     Column,
     Integer,
-    Numeric,
     String,
-    DateTime,
-    ForeignKey,
     create_engine,
-    select
 )
-from sqlalchemy.orm import (
-    relationship,
-)
-
 from sqlalchemy.orm import sessionmaker
 
 from sqlalchemy.ext.declarative import as_declarative
